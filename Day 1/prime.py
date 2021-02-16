@@ -2,7 +2,7 @@
 
 # Muhammad Turab
 
-number = 9
+number = 100
 i = 1
 factor = 0
 while number >= i:
