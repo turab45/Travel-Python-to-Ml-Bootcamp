@@ -1,0 +1,17 @@
+Note: Please create a word document and attach screenshot of code with its output.
+Task-01 don't have any output so just attach its code.
+
+Task-01 - Create a Mobile class without any variables and methods.
+
+
+Task-02 - Create a Mobile class with ram and rom instance attributes.
+Output: Iphone 4 128
+Tip: To print just create object and access instance attributes.
+
+
+Task-03 - Using solution of (2) add a method display_specs to the class Mobile
+which displays specs of mobile.
+Output: Iphone 7plus, 4GB RAM, 128GB ROM
+Tip: Use 'f' strings or format string.
+
+Task-04 Difference between Instance and Object.

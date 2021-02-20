@@ -1,0 +1,84 @@
+"""
+Task-01 - Create a class method change_total and change value of total_phones to 5.
+Output:
+0
+5
+
+Modify given code.
+Code:
+
+class Mobile:
+
+    total_phones = 0
+    def __init__(self, brand, ram, rom):
+        self.brand = brand
+        self.ram = ram
+        self.rom = rom
+        Mobile.total_phones+=1
+
+    # Your code here
+
+
+print(Mobile.total_phones) # Result before changing total_phones
+Mobile.change_total(5) # changing total_phones
+print(Mobile.total_phones) # Result after changing total_phones
+"""
+# -------------------------------------------------------------------
+"""
+Task-02 - Create a static method lucky_draw and return random value from list.
+Tip: Use Random module
+
+Modify given code.
+Code:
+
+class Mobile:
+    def __init__(self, brand, ram, rom):
+        self.brand = brand
+        self.ram = ram
+        self.rom = rom
+
+    # Your code here
+
+list = ['Nokia', 'Iphone', 'Samsung', 'Blackberry']
+print(Mobile.lucky_draw(list))
+"""
+# -------------------------------------------------------------------
+"""
+Task-03 - Create child class KeypadPhone that will inherit all of the
+variables and methods of the Mobile class. Now create object using child class.
+Output: Brand name = Iphone, Ram = 4GB, Rom = 64GB
+"""
+"""
+Modify given code.
+Code:
+
+class Mobile:
+    def __init__(self, brand, ram, rom):
+        self.brand = brand
+        self.ram = ram
+        self.rom = rom
+
+
+# Create child class here.
+
+
+# Create object here
+# Print the stuff here
+"""
+# -------------------------------------------------------------------
+"""
+Task-04 - Modify answer code of task-03 and add an instance attribute "touch"
+to the KeypadPhone class.
+Tip: Use super() method and modify __init__() in child class.
+When creating object, pass False as argument for touch parameter
+
+Output: Brand name = Iphone, Ram = 4GB, Rom = 64GB, Touch = False
+"""
+# -------------------------------------------------------------------
+"""
+Note: In Task-05 and Task-06 try to concise your answer, don't write
+long paragraphs.
+
+Task-05 - Define three types of methods and difference between them.
+Task-06 - Why inheritance is useful?
+"""
