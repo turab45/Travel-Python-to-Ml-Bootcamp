@@ -1,0 +1,58 @@
+"""
+Task-01 - Create a method fullname() which displays full name of a phone and
+use setter decorator and property decorator to it so it can be modified.
+Output:
+Iphone 7plus
+Samsung S21
+
+Modify given code.
+Code:
+
+class Mobile:
+
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+    # Your code here
+
+phone1 = Mobile("Iphone", "7plus")
+print(phone1.fullname)
+phone1.fullname = "Samsung S21"
+print(phone1.fullname)
+"""
+# -------------------------------------------------------------------
+"""
+Task-02 - Change the given code and make use of property decorator.
+Output:
+Iphone 7plus was manufactured in California
+Iphone 7plus was manufactured in China
+
+Modify given code.
+Code:
+
+class Mobile:
+
+    def __init__(self, brand, model, country):
+        self.brand = brand
+        self.model = model
+        self.country = country
+        self.manufacture = f"{self.brand} {self.model} was manufactured in {self.country}"
+
+    # Your code here
+
+
+phone1 = Mobile("Iphone", "7plus", "California")
+print(phone1.manufacture)
+phone1.country = "China"
+print(phone1.manufacture)
+"""
+# -------------------------------------------------------------------
+"""
+Note: In Task-03, Task-04 and Task-05 try to concise your answer, don't write
+long paragraphs.
+
+Task-03 - Difference between public, protected and private access modifiers.
+Task-04 - What are Special(magic/dunder) methods?
+Task-05 - Difference between __str__ and __repr__.
+"""
